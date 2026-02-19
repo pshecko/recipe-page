@@ -1,0 +1,39 @@
+@font-face {
+    font-family: young-serif-regular;
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: outfit-variable;
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+html {
+    background-color: #f1e5da;
+}
+
+body {
+    width: 90%;
+    background-color: #ffffff;
+    font-family: outfit-variable;
+}
+
+h1 {
+    font-family: young-serif-regular;
+    color: #32302f;
+}
+
+h2 {
+    font-family: young-serif-regular;
+    color: #32302f;
+}
+
+blockquote {
+    background-color: #fef7fc;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+br {
+    color: #32302f;
+}
