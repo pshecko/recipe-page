@@ -15,7 +15,7 @@
 }
 
 html {
-    background-color: #f1e5da;
+    background-color: hsl(30, 54%, 90%);
 }
 
 body {
@@ -26,7 +26,7 @@ main{
     width: 80%;
     max-width: 800px;
     margin: 3rem auto;
-    background-color: #ffffff;
+    background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
     padding-top: 2rem;
 }
@@ -49,11 +49,11 @@ li {
 }
 
 section li::marker {
-    color: #7e4734;
+    color: hsl(14, 45%, 36%);
 }
 
 blockquote li::marker {
-    color: #772144;
+    color: hsl(332, 51%, 32%);
 }
 
 li:last-child {
@@ -69,17 +69,17 @@ img {
 
 h1, h2 {
     font-family: young-serif-regular;
-    color: #7e4734;
+    color: hsl(14, 45%, 36%);
     margin-bottom: 1rem;
 }
 
 h1 {
-    color: #32302f;
+    color: hsl(24, 5%, 18%);
     margin-top: 1rem;
 }
 
 blockquote {
-    background-color: #fef7fc;
+    background-color: hsl(330, 100%, 98%);
     padding: 2rem;
     margin: 1rem 2rem;
     border-radius: 20px;
@@ -87,12 +87,12 @@ blockquote {
 }
 
 blockquote > h2 {
-    color: #772144;
+    color: hsl(332, 51%, 32%);
 }
 
 hr {
     border: none;
-    border-top: 1px solid #32302f39;
+    border-top: 1px solid hsl(30, 18%, 87%);
     margin: 1rem 2rem;
 }
 
@@ -109,7 +109,7 @@ th {
 }
 
 tr {
-    border-bottom: 1px solid #32302f39;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
 }
 
 tr:last-child {
@@ -119,7 +119,7 @@ tr:last-child {
 td {
     padding: 1rem 0;
     font-weight: bold;
-    color: #7e4734;
+    color: hsl(14, 45%, 36%);
 }
 
 @media (max-width: 800px) {
