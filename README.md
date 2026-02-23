@@ -14,7 +14,7 @@
 
 | Desktop | Mobile |
 | ----------- | ----------- |
-| ![Screenshot (desktop)](./screenshot-desktop.png)| ![Screenshot (mobile)](./screenshot-mobile.png) |
+| ![Screenshot (desktop)](./exercise-files/screenshot-desktop.png)| ![Screenshot (mobile)](./exercise-files/screenshot-mobile.png) |
 
 ### Links
 
