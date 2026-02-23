@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: young-serif-regular;
     src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
@@ -13,27 +19,119 @@ html {
 }
 
 body {
-    width: 90%;
-    background-color: #ffffff;
     font-family: outfit-variable;
 }
 
-h1 {
-    font-family: young-serif-regular;
-    color: #32302f;
+main{
+    width: 80%;
+    max-width: 800px;
+    margin: 3rem auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding-top: 2rem;
 }
 
-h2 {
+section {
+    padding: 1rem 2rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+ul, ol{
+    padding-left: 1rem;
+}
+
+li {
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+section li::marker {
+    color: #7e4734;
+}
+
+blockquote li::marker {
+    color: #772144;
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+img {    
+    display: block;
+    width: calc(100% - 4rem);
+    margin: auto;
+    border-radius: 20px;
+}
+
+h1, h2 {
     font-family: young-serif-regular;
+    color: #7e4734;
+    margin-bottom: 1rem;
+}
+
+h1 {
     color: #32302f;
+    margin-top: 1rem;
 }
 
 blockquote {
     background-color: #fef7fc;
-    padding: 1rem;
-    margin: 1rem 0;
+    padding: 2rem;
+    margin: 1rem 2rem;
+    border-radius: 20px;
+    margin-top: 0;
 }
 
-br {
-    color: #32302f;
+blockquote > h2 {
+    color: #772144;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #32302f39;
+    margin: 1rem 2rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+th {
+    font-weight: normal;
+    padding: 1rem 0;
+}
+
+tr {
+    border-bottom: 1px solid #32302f39;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+td {
+    padding: 1rem 0;
+    font-weight: bold;
+    color: #7e4734;
+}
+
+@media (max-width: 800px) {
+    main {
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+        padding-top: 0;
+    }
+    img {
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
 }
